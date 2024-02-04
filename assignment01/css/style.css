@@ -1,0 +1,47 @@
+/*Richard LeBlanc 200 182 873
+  Some slight styling changes
+*/
+button{
+    font-size: 1.2em;
+    border-radius: 2%;
+    border: 2px solid #e0e0e0;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    display: block;
+    width: fit-content;
+}
+#story{
+    background-color: gold;
+    color: #0e0e0e;
+}
+body > section > div{
+    display: flex;
+}
+body > section > div div{
+    width: 18%;
+    margin: auto;
+}
+#noun1, #chosenNoun1{
+    background-color: aqua;
+}
+#verb, #chosenVerb{
+    background-color: chartreuse;
+}
+#adjective, #chosenAdjective{
+    background-color: coral;
+}
+#noun2, #chosenNoun2{
+    background-color: darkorchid;
+}
+#setting, #chosenSetting{
+    background-color: cyan;
+}
+#playback{
+    background-color: hotpink;
+}
+#random{
+    background-color: teal;
+}
